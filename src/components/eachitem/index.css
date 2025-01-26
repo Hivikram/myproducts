@@ -1,0 +1,34 @@
+.detailsCardbg {
+  height: 100vh;
+  width: 100vw;
+}
+.itemCard {
+  height: 250px;
+}
+.card {
+  width: 80%;
+  height: 300px;
+}
+.flexDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.detailsCardImg {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (min-width: 520px) {
+  .card {
+    width: 50%;
+    height: 300px;
+  }
+  .detailsCardImg {
+    width: 300px;
+  }
+  .headder {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

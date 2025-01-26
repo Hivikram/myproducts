@@ -1,0 +1,29 @@
+.cardSize {
+  width: 60%;
+
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: white;
+}
+.imgSize {
+  height: 80px;
+  width: 10px;
+}
+
+.headder {
+  font-size: 10px;
+}
+.cardCost {
+  font-weight: bold;
+  font-size: 10px;
+}
+.cardDescription {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 520px) {
+  .cardSize {
+    width: 30%;
+  }
+}

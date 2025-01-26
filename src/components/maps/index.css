@@ -1,0 +1,9 @@
+.mapbg {
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}

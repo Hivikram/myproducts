@@ -1,0 +1,99 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+.itemCard {
+  width: 100%;
+  height: 80%;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projectImg {
+  height: 40px;
+  width: 100px;
+}
+
+.nav {
+  margin: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* background-color: rgb(126, 126, 244); */
+  background-color: white;
+
+  height: 50px;
+  border-width: 5px;
+  border-color: red;
+}
+.navHedding {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "roboto";
+}
+.contentDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itemdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  text-decoration: none;
+  height: 70px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+}
+.searchFilterbg {
+  width: 100%;
+  border-radius: 30px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchContainer {
+  width: 35%;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.searchContainer2 {
+  width: 300px;
+}
+.navbtn {
+  font-size: 15px;
+}
+.input {
+  width: 70%;
+  height: 25px;
+  font-size: 15px;
+  text-align: center;
+  border: none;
+}
+
+@media screen and (max-width: 400px) {
+  .searchFilterbg {
+    height: 30px;
+  }
+  .navHedding {
+    font-size: 10px;
+  }
+}
