@@ -21,11 +21,11 @@ function EachItem() {
   useEffect(() => {
     eachDetails();
   }, []);
-  console.log(productDetails.rating, "pro");
+
   return (
-    <div className="detailsCardbg bg-primary d-flex flex-column justify-content-between  align-items-center">
+    <div className="detailsCardbg bg-primary d-flex flex-column  align-items-center">
       <NavBar />
-      <div className="card d-flex flex-column align-items-center p-3  ">
+      <div className="card d-flex flex-column align-items-center p-3 mt-5  ">
         {loader ? (
           <>
             <img
