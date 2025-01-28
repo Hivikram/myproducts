@@ -4,9 +4,10 @@
 }
 .itemCard {
   width: 100%;
-  height: 500px;
+  height: 1000px;
   display: flex;
   flex-direction: row;
+  over-flow-y:auto;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
