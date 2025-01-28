@@ -71,7 +71,7 @@ const Home = (props) => {
                 <FeatchItems id={each.id} name={each.title} img={each.image} />
               ))
             ) : (
-              <h1>No Items</h1>
+              <h1 className="text-white">No Items</h1>
             )
           ) : (
             <CircleLoader />
